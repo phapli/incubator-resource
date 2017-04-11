@@ -2,7 +2,7 @@ var path = require('path');
 
 var app = require(path.resolve(__dirname, '../server/server'));
 var ds = app.datasources.mysql;
-ds.automigrate('User', function (err) {
+ds.automigrate('user', function (err) {
   if (err) throw err;
   // app.models.User.create({}, function (err, model) {
   //   if (err) throw err;
