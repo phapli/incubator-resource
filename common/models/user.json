@@ -1,0 +1,21 @@
+{
+  "name": "user",
+  "base": "User",
+  "idInjection": true,
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "requests": {
+      "type": "hasMany",
+      "model": "request",
+      "foreignKey": "userId"
+    },
+    "resources": {
+      "type": "hasMany",
+      "model": "resource",
+      "foreignKey": "userId"
+    }
+  },
+  "acls": [],
+  "methods": []
+}
