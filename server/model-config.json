@@ -14,31 +14,31 @@
     ]
   },
   "User": {
-    "dataSource": "mysql",
+    "dataSource": "memory",
     "public": false
   },
   "user": {
-    "dataSource": "mysql",
+    "dataSource": "memory",
     "public": true
   },
   "AccessToken": {
-    "dataSource": "mysql",
+    "dataSource": "memory",
     "public": false
   },
   "ACL": {
-    "dataSource": "mysql",
+    "dataSource": "memory",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "mysql",
+    "dataSource": "memory",
     "public": false
   },
   "Role": {
-    "dataSource": "mysql",
+    "dataSource": "memory",
     "public": false
   },
   "Resource": {
-    "dataSource": "mysql",
+    "dataSource": "memory",
     "public": true
   }
 }
